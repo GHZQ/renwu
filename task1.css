@@ -1,0 +1,15 @@
+
+@charset "utf-8";
+<style type = "text/css">
+
+body {width: 100%;margin: 0.5%;}
+div {
+	background-color: orange;
+	width: 30%;
+	margin: 1.5%;
+	float: left;
+	padding-bottom: 30%;
+	border-radius: 7%;
+	}
+
+</style>
