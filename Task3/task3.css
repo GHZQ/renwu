@@ -1,0 +1,63 @@
+body {
+	font-size=62.5%;
+	margin: 0;
+	color: #FFFFFF;
+	background: #6ccdd5;
+}
+
+div{
+    display: block;
+} 
+
+.back {
+	margin:1em 1em;	
+	position:fixed;
+	top:0;
+	left:0;
+}
+.backimg {
+	width:2.5em;
+	height:2.5em;
+	}
+.logo {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 3.5em;
+	} 
+.logoimg {
+	width: 12em;
+	height: 5em;
+	}	
+
+.p {
+	font-size: 1em;
+	line-height: 1.5;
+	font-family: "Microsoft YaHei UI Light";
+	height: 9em;
+	margin-top: 3.5em;
+	margin-left: 8%;
+	margin-right: 8%;
+	padding-bottom: 2em;
+}
+.p1 {
+	margin-top:0.3em;
+	font-size:1em;
+	text-align:center;
+	}
+.img {
+	width: 4em;
+	height: 4em;
+	}	
+
+.group {
+	float: left;
+	margin-top: 1.5em;
+	margin-left: 8%;
+}
+
+
+.BJ {
+	float: right;
+	margin-right: 8%;
+	margin-top: 1.5em;
+}
