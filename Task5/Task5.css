@@ -1,0 +1,151 @@
+@charset=utf-8;
+html {
+	font-size=62.5%;
+	}
+body {
+	margin:0;
+	width:100%;
+	background-color:white;
+	}
+ul, li, ol {
+    list-style: none;
+    }
+
+header {
+	height: 3em;
+	margin:0 0 0.25em 0;
+	position:fixed;
+	left:0;
+	top:0;
+	right:0;
+	background:#5fc0cd;
+	text-align: center;
+	line-height: 2.5em;
+	display:inline-block;
+	color: white;	
+    }
+span {
+	text-align:center;
+	font-size:1.3em:;
+	line-height:1.3em;
+	}	
+.back {
+	height: 3em;
+	width: 1em;
+	float: left;
+	margin-left: 1em;
+}
+main {
+    position: absolute;
+    top: 3em;
+    bottom: 0.5em;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    background: #fff;
+}
+.content {
+    height: auto;
+    font-size: 1.3em;
+}
+.BG {
+	margin: -3em 0 0 0;
+	background: url(images/BGimg.png) no-repeat;
+	background-size: cover;
+	height: 11em;
+	width: 100%
+}
+.workerimg {
+	height: 5em;
+	width: 5.2em;
+	margin: 3em 1.5em 2.8em;
+}
+.information {
+	margin: -5em 0 0 10em;
+}
+.name {
+	font-size: 1.3em;
+}
+
+
+.location {
+	margin-top: 0.5em;
+    padding: 0 0 0 1em;
+    background: url(images/location.png) no-repeat left center;
+    background-size: 1em;
+
+}
+.form {
+	margin: 3.5em 0 0 0;
+
+}
+
+.title {
+    padding: 0.8em 0.8em;
+    height: 1.5em;
+    border-bottom: 1px solid #ccc;
+}
+.title span {
+    padding-left: 0.2em;
+    border-left: solid #5fc0cd;
+}
+.list {
+	margin: 0;
+    padding: 0.5em 0.8em;
+}
+.list li {
+    position: relative;
+    padding: 0.8em 0.5em;
+    line-height: 1em;
+    border-bottom: 1px solid #ccc;
+    overflow: auto;
+}
+.tag {
+    display: inline-block;
+    padding: 0 1.5em;
+    background: url(images/star.png) no-repeat left center;
+    background-size: 1.4em 1.4em;
+}
+.label {
+	line-height: 0.3em;
+    position: absolute;
+    top: 50%;
+    width: 5em;
+    border-right: 1px solid #ccc;
+    color: #aaa;
+}
+.item {
+    margin-left: 6em;
+}
+footer {
+	position: fixed;
+	display: flex;
+	height: 3em;
+	width: 100%;
+	bottom: 0.5em;
+	left: 0;
+	right: 0;
+}
+.b1 {
+	background: white;
+	width: 50%;
+	outline: none;
+	border-radius: 0.4em;
+	border-color: #5fc0cd;
+	cursor: pointer;
+	color: #5fc0cd;
+	font-size: 1.3em;
+	margin: 0 0.2em;
+
+}
+.b2 {
+	background: #5fc0cd;
+	width: 50%;
+	outline: none;
+	border-radius: 0.4em;
+	cursor: pointer;
+	font-size: 1.3em;
+	margin: 0 0.2em;
+}
