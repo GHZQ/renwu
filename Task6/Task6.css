@@ -1,0 +1,164 @@
+@charset=utf-8
+html {
+	font-size=62.5%;
+}
+body {
+	margin:0;
+	width:100%;
+	}
+header {
+	height: 3em;
+	width:100%;
+	margin: 0;
+	background:rgb(95,192,205);
+	}
+	.zgz {
+		text-align:center;
+		background-color:rgb(85,168,179):
+	}
+	.btn1{
+		height:3em;
+		width:6em;
+		color:white;
+		border-radius:7px;
+		background-color:rgb(85,168,179);
+		border:none;
+		cursor: pointer;
+		outline:none;
+		margin:0 0 0;
+		}
+	.btn2 {
+		height:3em;
+		width:6em;
+		color:rgb(95,192,205);
+		border-radius:7px;
+		background-color:white;
+		border:none;
+		cursor: pointer;
+		outline:none;
+		margin:0 0 0 0;
+		
+	}
+	.top {
+		position:fixed;
+		top:0.5em;
+		right:1em;
+		float:right;
+		text-align:center;
+		}
+		.top img {
+			width:2em;
+			height:2em;
+		}
+main {
+	background-color:white;
+	width:100%;
+	}
+ul, li {
+    list-style: none;
+    }
+	.choose {
+		wideth:100%;
+		height:2.5em;}
+		.select {
+			width:33.333%;
+			height:2.8em;
+			float:left;
+		}
+		.select option {
+			text-align:center;
+			}
+	.list {
+	       margin: 0;
+           padding: 0.5em 0.8em;
+}
+    .list li {
+		position: relative;
+        padding: 0.8em 0.5em;
+		line-height: 1em;
+		border-bottom: 1px solid #ccc;
+}	
+	.data {
+		background:url(images/data.jpg) no-repeat left center;
+		padding: 0 0 0 1.5em;
+		background-size:1.5em;
+		color:rgb(158,158,158);
+		margin-bottom:0.5em;
+	}
+	.location {
+    padding: 0 0 0 1.5em;
+    background:url(images/location.jpg) no-repeat left center;
+    background-size: 1.5em;
+	color:rgb(158,158,158);
+	margin-top:0.5em;
+	}
+	.p{
+	line-height:1em;
+	padding-left:1.1em;
+	padding-right:6.5em;
+	font-size:1.4em;
+	}
+	.right {
+		display:inline;
+		float:right;
+		margin:-2.9em 0 0 0;
+		width:1.6em;
+		height:1.7em;
+		}
+	.list span {
+		display:inline;
+		color:red;
+		float:right;
+		margin:-1.9em 1.5em;
+		font-size:1.4em;}	
+		
+		
+		
+footer {
+	background-color:rgb(248,250,251);
+	position: fixed;
+	height: 4em;
+	width: 100%;
+	bottom: 0;
+	}
+	.p1 {
+		text-align:center;
+		line-height:0;
+		margin-top:0.5em;
+		font-size:0.8em;
+		color:rgb(95,192,205);
+		}
+	.p2 {
+		text-align:center;
+		line-height:0;
+		margin-top:0.5em;
+		font-size:0.8em;
+		color:rgb(158,158,158);
+		}
+	.home {
+		float:left;
+		margin-top:0.5em;
+		margin-left:18%;
+		}
+		.home img {
+			height:2em;
+			width:2em;
+			}
+	.Write {
+		text-align:center;
+		}
+		.Write img {
+			height:4em;
+			width:4em;
+			}
+	.body {
+		float:right;
+		margin-top:0.5em;
+		margin-right:18%;	
+		}	
+		.body img {
+			height:2em;
+			width:2em;
+			}	
+a {text-decoration:none} 			
+ 
